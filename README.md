@@ -59,26 +59,12 @@ python app.py
 
 ---
 
-## 💡 Sample Prediction (Python API)
-
-```python
-from src.traditional_ml import TraditionalMLModels
-from src.deep_learning import DeepLearningModels, EnsemblePredictor
-
-ensemble = EnsemblePredictor(...)
-result = ensemble.predict("URGENT! Your account is compromised.")
-print(result)
-```
-
----
-
 ## 🤝 Contributors
 
 Special thanks to the contributors of this project:
 
 - **[@usmaino](https://github.com/usmaino)** – ML integration and research
 - **[@allmen](https://github.com/allmen)** – Deep learning model tuning
-- **[@bitsmart](https://github.com/bitsmart)** – Web deployment and documentation
 
 ---
 
